@@ -678,7 +678,7 @@ export default function Home() {
               <SwiperSlide>
                 <TestimonialCard
                   quote="User saved from eviction"
-                  author="James - CEO Buzz"
+                  author="James Carlos"
                   title="CEO"
                   videoThumbnail="/assets/images/profile1.png"
                 />
@@ -687,7 +687,7 @@ export default function Home() {
               <SwiperSlide>
                 <TestimonialCard
                   quote="Gig worker wins wage case"
-                  author="James - CEO Buzz"
+                  author="Martin Cole"
                   title="CEO"
                   videoThumbnail="/assets/images/profile2.png"
                 />
@@ -696,7 +696,7 @@ export default function Home() {
               <SwiperSlide>
                 <TestimonialCard
                   quote="Solo attorney on their first LAWYETI call"
-                  author="James - CEO Buzz"
+                  author="Carlton Walker"
                   title="CEO"
                   videoThumbnail="/assets/images/profile3.png"
                 />
@@ -705,7 +705,7 @@ export default function Home() {
               <SwiperSlide>
                 <TestimonialCard
                   quote="Promoter explaining their referral earning"
-                  author="James - CEO Buzz"
+                  author="Emma O'Connor "
                   title="CEO"
                   videoThumbnail="/assets/images/profile4.png"
                 />
@@ -714,7 +714,7 @@ export default function Home() {
               <SwiperSlide>
                 <TestimonialCard
                   quote="Promoter explaining their referral earning"
-                  author="James - CEO Buzz"
+                  author="James"
                   title="CEO"
                   videoThumbnail="/assets/images/profile5.png"
                 />

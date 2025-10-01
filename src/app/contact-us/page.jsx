@@ -151,7 +151,7 @@ export default function ContactPage() {
                 <div>
                   <p className="text-white  text-base">Email:</p>
                   <p className="text-law-yeti-text-muted  text-base">
-                    info@lawyeti.com
+                    legal@lawyeti.com
                   </p>
                 </div>
               </div>
@@ -182,7 +182,7 @@ export default function ContactPage() {
                   name="name"
                   placeholder="Full Name"
                   required
-                  className="bg-[#1A1A1A] border-0 border-l h-[70px] rounded-[42px] border-white/60 placeholder:text-[14px] px-10 focus-visible:border-white/60"
+                  className="bg-[#1A1A1A] border-[#484848] h-[70px] rounded-[42px] placeholder:text-[14px] px-10 focus-visible:border-white/60"
                 />
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -190,19 +190,19 @@ export default function ContactPage() {
                     name="phone"
                     placeholder="Phone"
                     required
-                    className="bg-[#1A1A1A] border-0 border-l h-[70px] rounded-[42px] border-white/60 placeholder:text-[14px] px-10 focus-visible:border-white/60"
+                    className="bg-[#1A1A1A] border-[#484848] h-[70px] rounded-[42px] placeholder:text-[14px] px-10 focus-visible:border-white/60"
                   />
                   <Input
                     type="email"
                     name="email"
                     placeholder="Email"
                     required
-                    className="bg-[#1A1A1A] border-0 border-l h-[70px] rounded-[42px] border-white/60 placeholder:text-[14px] px-10 focus-visible:border-white/60"
+                    className="bg-[#1A1A1A] border-[#484848] h-[70px] rounded-[42px] placeholder:text-[14px] px-10 focus-visible:border-white/60"
                   />
                 </div>
 
                 <Select value={service} onValueChange={setService}>
-                  <SelectTrigger className="w-full bg-[#1A1A1A] border-0 border-l  rounded-[42px] border-white/60 placeholder:text-[14px] px-10 py-9 focus-visible:border-white/60">
+                  <SelectTrigger className="w-full bg-[#1A1A1A] border-[#484848]  rounded-[42px] placeholder:text-[14px] px-10 py-9 focus-visible:border-white/60">
                     <SelectValue placeholder="Select Services" />
                   </SelectTrigger>
                   <SelectContent className="w-full bg-[#1A1A1A] text-white border-white/20">
@@ -221,7 +221,7 @@ export default function ContactPage() {
                   name="message"
                   placeholder="Write a Message"
                   required
-                  className="bg-[#1A1A1A] h-[200px] border-0 border-l  rounded-[42px] border-white/60 placeholder:text-[14px] px-10 py-10 resize-none focus-visible:border-white/60"
+                  className="bg-[#1A1A1A] h-[200px] border-[#484848]  rounded-[42px] placeholder:text-[14px] px-10 py-10 resize-none focus-visible:border-white/60"
                 />
 
                 <Button
