@@ -2,19 +2,19 @@ const Statistics = () => {
   const stats = [
     {
       number: "100k+",
-      description: "Egestas odio justo leo at nunc non."
+      description: "Legal cases successfully resolved through our platform."
     },
     {
       number: "20+",
-      description: "Egestas odio justo leo at nunc non."
+      description: "Years of combined legal expertise from our attorney network."
     },
     {
       number: "98%",
-      description: "Egestas odio justo leo at nunc non."
+      description: "Client satisfaction rate with our legal services."
     },
     {
       number: "1200+",
-      description: "Egestas odio justo leo at nunc non."
+      description: "Qualified attorneys available for consultation."
     }
   ];
 
@@ -27,13 +27,13 @@ const Statistics = () => {
             <div key={index} className="text-start" data-aos="fade-up">
               {/* Number */}
               <div>
-                <span className="text-5xl md:text-6xl lg:text-7xl font-helvetica font-medium lg:leading-0 tracking-[-1.4px] text-gradient capitalize">
+                <span className="text-5xl md:text-6xl lg:text-7xl font-helvetica font-medium text-[#D1995B] lg:leading-0 tracking-[-1.4px] text-gradient capitalize">
                   {stat.number}
                 </span>
               </div>
               
               {/* Description */}
-              <p className="text-lawyeti-white-80 font-helvetica text-base leading-[150%] max-w-[252px] lg:mx-auto">
+              <p className="mt-6 text-lawyeti-white-80 font-helvetica text-base leading-[150%] max-w-[252px] lg:mx-auto">
                 {stat.description}
               </p>
             </div>

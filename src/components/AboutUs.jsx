@@ -4,7 +4,7 @@ import React from "react";
 const AboutUs = () => {
   return (
     <section
-      className="relative overflow-hidden py-16 md:py-24 padTopZeroMobile"
+      className="relative overflow-hidden py-16 md:py-24"
       data-aos="fade-up"
     >
       <div className="container mx-auto px-4 md:px-8">
@@ -25,7 +25,7 @@ const AboutUs = () => {
               className="text-center text-gradient-alt font-helvetica text-3xl md:text-[52px] font-medium leading-[130%] tracking-tight capitalize "
               data-aos="fade-up"
             >
-              Get CRM helps you Find Best Lawyers...
+              Get CRM helps you Find Best Lawyers
             </h2>
           </div>
 

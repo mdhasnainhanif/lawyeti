@@ -6,9 +6,8 @@ const AttorneyReviews = () => {
 
   return (
     <>
-      <section className="py-20" data-aos="fade-up">
+      {/* <section className="py-20" data-aos="fade-up">
         <div className="max-w-7xl mx-auto lg:px-8">
-          {/* Section Title */}
           <div className="text-center mb-16">
             <h2
               className="text-3xl md:text-4xl lg:text-5xl font-helvetica font-medium leading-[130%] tracking-[-1.04px] text-gradient capitalize"
@@ -26,30 +25,24 @@ const AttorneyReviews = () => {
             </p>
           </div>
 
-          {/* Video Testimonial Container */}
           <div className="relative max-w-6xl mx-auto">
-            {/* Background Card */}
             <div
               className="w-full h-[512px] bg-[#1A1A1A]  lg:rounded-[30px] border-t border-b border-white/20 bg-lawyeti-dark-grey relative overflow-hidden"
               data-aos="fade-up"
             >
-              {/* Video Background */}
               <div className="absolute inset-0  p-8">
                 <img
                   src="/assets/images/review-bg.png"
                   alt="Attorney testimonial video"
                   className="w-full h-full object-cover rounded-[20px]"
                 />
-                {/* Video Overlay Gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-lawyeti-black via-transparent to-transparent rounded-[20px] glass-blur"></div>
               </div>
 
-              {/* Testimonial Content - Bottom Overlay */}
               <div
                 className="absolute -bottom-2 left-0 right-0 lg:p-15 p-20 text-center videoBtn"
                 data-aos="fade-up"
               >
-                {/* Play Button */}
                 <button
                   data-aos="fade-up"
                   className="w-20 h-20 mx-auto mb-5 rounded-full bg-[#1A1A1A] border border-white/20 flex items-center justify-center cursor-pointer"
@@ -62,14 +55,12 @@ const AttorneyReviews = () => {
                   />
                 </button>
 
-                {/* Attribution */}
                 <div className="mb-6 hideonMobile">
                   <p className="text-gold font-inter-tight text-2xl font-medium leading-[120%] tracking-[-0.78px]">
                     James - Legal lawyer
                   </p>
                 </div>
 
-                {/* Quote */}
                 <blockquote
                   className="hideonMobile text-white font-inter-tight text-2xl md:text-3xl font-normal leading-[120%] tracking-[-1.08px] max-w-4xl mx-auto"
                   data-aos="fade-up"
@@ -83,8 +74,7 @@ const AttorneyReviews = () => {
           </div>
         </div>
 
-        {/* Video Popup Modal */}
-      </section>
+      </section> */}
       {showVideo && (
         <div className="fixed top-0 left-0 min-w-screen  min-h-screen  z-50 flex items-center justify-center bg-black/80">
           <div className="relative w-full max-w-3xl mx-auto p-4">

@@ -134,14 +134,14 @@ const FAQ = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-helvetica font-medium leading-[130%] tracking-[-1.04px] text-gradient capitalize">
             Frequently Asked Question
           </h2>
-          <p
+          {/* <p
             className="mt-6 text-lawyeti-white-80 font-helvetica text-base leading-[150%] max-w-2xl mx-auto"
             data-aos="fade-up"
           >
             Egestas odio justo leo at nunc non. Quam nunc felis nibh enim
             suspendisse in. Eros sit tortor sed quis. Mi aliquet mattis sodales
             velit pretium quam.
-          </p>
+          </p> */}
         </div>
 
         {/* Tabs */}

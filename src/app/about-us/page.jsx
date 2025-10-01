@@ -220,7 +220,7 @@ export default function Index() {
           {/* Process Steps */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 mb-16 h-full">
             <div className="space-y-6 relative">
-              <div className="glow2 cardNew p-11 rounded-2xl items-center">
+              <div className="glow2 cardNew md:p-11 p-6 rounded-2xl items-center">
 
               <h2 className="text-3xl mb-4 bg-[#D1995B] p-4 rounded-full h-16 w-16 flex items-center justify-center ">01</h2>
               <h3 className="text-gradient-alt font-helvetica text-2xl md:text-[30px] font-medium leading-none tracking-tight capitalize">
@@ -234,7 +234,7 @@ export default function Index() {
             </div>
 
             <div className="space-y-6 relative">
-              <div className="glow2 cardNew p-11 rounded-2xl items-center">
+              <div className="glow2 cardNew md:p-11 p-6 rounded-2xl items-center">
 
               <h2 className="text-3xl mb-4 bg-[#D1995B] p-4 rounded-full h-16 w-16 flex items-center justify-center ">02</h2>
               <h3 className="text-gradient-alt font-helvetica text-2xl md:text-[30px] font-medium leading-none tracking-tight capitalize">
@@ -247,7 +247,7 @@ export default function Index() {
             </div>
 
             <div className="space-y-6 relative ">
-              <div className="glow2 cardNew p-11 rounded-2xl items-center">
+              <div className="glow2 cardNew md:p-11 p-6 rounded-2xl items-center">
 
               <h2 className="text-3xl mb-4 bg-[#D1995B] p-4 rounded-full h-16 w-16 flex items-center justify-center ">03</h2>
               <h3 className="text-gradient-alt font-helvetica text-2xl md:text-[30px] font-medium leading-none tracking-tight capitalize">

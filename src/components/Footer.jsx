@@ -108,7 +108,7 @@ const Footer = () => {
                   +(123)456-7890
                 </div>
                 <div className="text-white/80 font-helvetica text-sm md:text-base font-medium leading-[150%] opacity-80">
-                  Support: legal@law-yeti.com
+                  Mail: legal@law-yeti.com
                 </div>
                 <div className="text-white/80 font-helvetica text-sm md:text-base font-normal leading-[150%] opacity-80">
                   Abc St, XYZ, City, USA
