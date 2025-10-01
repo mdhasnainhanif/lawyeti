@@ -1,3 +1,4 @@
+
 "use client";
 
 import { ArrowDown, Menu } from "lucide-react";
@@ -108,6 +109,7 @@ const Header = () => {
               className="bg-black text-white border-0 p-6"
             >
               <nav className="flex flex-col gap-6 items-start">
+                <img src="/assets/images/logo.png" alt="Legal consultation" className="h-[50px] lg:h-[100px] object-cover" />
                 <SheetClose asChild>
                   <Link href="/">
                     <NavItem active>Home</NavItem>
@@ -149,12 +151,12 @@ const Header = () => {
 
               <div className="mt-8 flex flex-col gap-4">
                 <SheetClose asChild>
-                  <button className="flex px-5 py-3 justify-center items-center gap-2 rounded-full border border-white text-white font-inter-tight text-base font-medium leading-none tracking-tight hover:bg-white/10 transition-colors cursor-pointer">
+                  <button className="flex px-18 py-3 justify-center w-fit items-center gap-2 rounded-full border border-white text-white font-inter-tight text-base font-medium leading-none tracking-tight hover:bg-white/10 transition-colors cursor-pointer">
                     Sign In
                   </button>
                 </SheetClose>
                 <SheetClose asChild>
-                  <button className="flex px-5 py-3 justify-center items-center gap-2 rounded-full border border-gold bg-transparent text-gold font-inter-tight text-base font-medium leading-none tracking-tight hover:bg-gold/10 transition-colors cursor-pointer">
+                  <button className="flex px-10 py-3 justify-center w-fit items-center gap-2 rounded-full border border-gold bg-transparent text-gold font-inter-tight text-base font-medium leading-none tracking-tight hover:bg-gold/10 transition-colors cursor-pointer">
                     Pre-Register
                     <ArrowDown className="w-3 h-3 rotate-90" />
                   </button>

@@ -539,6 +539,13 @@ export default function Index() {
           <Swiper
             spaceBetween={20}
             slidesPerView={1}
+            loop={true}
+            navigation={true}
+            pagination={{ 
+              clickable: true,
+              bulletClass: 'swiper-pagination-bullet',
+              bulletActiveClass: 'swiper-pagination-bullet-active'
+            }}
             breakpoints={{
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
@@ -546,6 +553,7 @@ export default function Index() {
               1280: { slidesPerView: 4 },
             }}
             autoplay={{ delay: 3000, disableOnInteraction: false }}
+            modules={[require('swiper/modules').Pagination, require('swiper/modules').Navigation, require('swiper/modules').Autoplay]}
           >
             {teamMembers.map((member, index) => (
               <SwiperSlide key={index}>

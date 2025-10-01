@@ -300,3 +300,29 @@ input::placeholder {
   flex-direction: column;
   height: 100%;
 }
+
+/* Custom Swiper Pagination Styles */
+.swiper-pagination {
+  position: relative !important;
+  margin-top: 2rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background: rgba(255, 255, 255, 0.3) !important;
+  border-radius: 50% !important;
+  opacity: 1 !important;
+  transition: all 0.3s ease !important;
+  cursor: pointer !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #D1995B !important;
+  transform: scale(1.2) !important;
+  box-shadow: 0 0 8px rgba(209, 153, 91, 0.5) !important;
+}

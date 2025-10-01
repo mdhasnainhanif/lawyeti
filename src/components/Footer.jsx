@@ -105,14 +105,16 @@ const Footer = () => {
               </h3>
               <div className="space-y-5">
                 <div className="text-white/80 font-helvetica text-sm md:text-base font-bold leading-[150%] opacity-80">
-                  +(123)456-7890
+                <a href="tel:+14103752449">
+                +1 410 375 2449
+                </a>
                 </div>
                 <div className="text-white/80 font-helvetica text-sm md:text-base font-medium leading-[150%] opacity-80">
                   Mail: legal@law-yeti.com
                 </div>
-                <div className="text-white/80 font-helvetica text-sm md:text-base font-normal leading-[150%] opacity-80">
+                {/* <div className="text-white/80 font-helvetica text-sm md:text-base font-normal leading-[150%] opacity-80">
                   Abc St, XYZ, City, USA
-                </div>
+                </div> */}
               </div>
             </div>
             <FooterSection

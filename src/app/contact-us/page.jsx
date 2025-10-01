@@ -136,7 +136,9 @@ export default function ContactPage() {
                 <div>
                   <p className="text-white  text-base">Phone:</p>
                   <p className="text-law-yeti-text-muted  text-base">
-                    703-209-7577
+                  <a href="tel:+14103752449"> 
+                  +1 410 375 2449
+                  </a>
                   </p>
                 </div>
               </div>
@@ -156,7 +158,7 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div
                   className="w-14 h-14 bg-law-yeti-accent rounded-full flex items-center justify-center"
                   style={{ background: "#D1995B" }}
@@ -169,7 +171,7 @@ export default function ContactPage() {
                     9 425 31d St, SW Suite 101 Washington, DC 20024
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
