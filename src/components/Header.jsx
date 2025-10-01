@@ -109,7 +109,7 @@ const Header = () => {
               className="bg-black text-white border-0 p-6"
             >
               <nav className="flex flex-col gap-6 items-start">
-                <img src="/assets/images/logo.png" alt="Legal consultation" className="h-[50px] lg:h-[100px] object-cover" />
+                <img src="/assets/images/logo.png" alt="Legal consultation" className="h-[65px] lg:h-[100px] object-cover" />
                 <SheetClose asChild>
                   <Link href="/">
                     <NavItem active>Home</NavItem>

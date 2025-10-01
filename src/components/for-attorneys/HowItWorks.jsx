@@ -71,7 +71,7 @@ const HowItWorks = () => {
                     {step.description}
                   </p>
                   {index < steps.length - 1 && (
-                    <div className="absolute bottom-[20%] -right-10 w-10 h-pxhidden md:block">
+                    <div className="absolute bottom-[20%] -right-10 w-10 h-px hidden md:block">
                       <img
                         src="/assets/images/icons/long-arrow-right.svg"
                         alt="Right Arrow"
