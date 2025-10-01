@@ -19,10 +19,13 @@ const poppins = Poppins({
 //   subsets: ["latin"],
 // });
 
-// export const metadata = {
-//   title: "Law Yeti",
-//   description: "Laywers on demand, for free.",
-// };
+export const metadata = {
+  title: "Law Yeti",
+  description: "Lawyers on demand, for free.",
+  icons: {
+    icon: "/assets/images/favicon.png",
+  },
+};
 
 export default function RootLayout({ children }) {
   return (

@@ -123,7 +123,7 @@ export default function Home() {
               <input
                 type="text"
                 placeholder="Enter Your Legal area"
-                className="glow w-full lg:mb-0 mb-2 pl-6 lg:pr-48 md:pr-52 h-[60px] bg-darker-gray text-white placeholder-white font-inter-tight text-sm md:text-base rounded-full focus:outline-none"
+                className="glow w-full lg:mb-0 mb-2 pl-6 lg:pr-48 md:pr-52 h-[59px] bg-darker-gray text-white placeholder-white font-inter-tight text-sm md:text-base rounded-full focus:outline-none"
               />
               <button className="text-sm lg:text-lg lg:w-fit w-full lg:absolute lg:right-1 lg:top-[3px]  flex px-5 py-4 justify-center items-center gap-2 rounded-full bg-gold text-black font-inter-tight font-medium leading-none tracking-tight border border-gold hover:bg-transparent hover:text-gold cursor-pointer transition-colors">
                 Get Started with AI
