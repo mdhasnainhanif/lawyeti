@@ -101,7 +101,7 @@ export default function Home() {
           {/* Hero Content */}
           <div className="flex flex-col items-center gap-4 mb-7 lg:mb-16 xl:max-w-6xl mx-auto text-center">
             <h1
-              className="text-gradient font-helvetica text-3xl sm:text-4xl xl:text-[64px] font-bold leading-[110%] tracking-tight capitalize"
+              className="text-gradient font-helvetica text-3xl sm:text-4xl xl:text-[64px] font-semibold leading-[110%] tracking-tight capitalize"
               data-aos="fade-up"
             >
               Get Instant Legal Guidance with Our Free AI Legal Services
@@ -117,13 +117,13 @@ export default function Home() {
 
             {/* Search Bar */}
             <div
-              className="w-full lg:flex lg:flex-row flex-wrap lg:gap-0 max-w-[900px]   relative mt-6"
+              className="w-full lg:flex lg:flex-row flex-wrap lg:gap-0 max-w-[800px]   relative mt-6"
               data-aos="fade-up"
             >
               <input
                 type="text"
                 placeholder="Enter Your Legal area"
-                className="glow w-full lg:mb-0 mb-2 pl-6 lg:pr-48 md:pr-52 h-[59px] bg-darker-gray text-white placeholder-white font-inter-tight text-sm md:text-base rounded-full focus:outline-none"
+                className="glow w-full lg:mb-0 mb-2 pl-6 lg:pr-48 md:pr-52 h-[58px] bg-darker-gray text-white placeholder-white font-inter-tight text-sm md:text-base rounded-full focus:outline-none"
               />
               <button className="text-sm lg:text-lg lg:w-fit w-full lg:absolute lg:right-1 lg:top-[3px]  flex px-5 py-4 justify-center items-center gap-2 rounded-full bg-gold text-black font-inter-tight font-medium leading-none tracking-tight border border-gold hover:bg-transparent hover:text-gold cursor-pointer transition-colors">
                 Get Started with AI
