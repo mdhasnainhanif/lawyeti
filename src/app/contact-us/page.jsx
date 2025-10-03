@@ -126,7 +126,7 @@ export default function ContactPage() {
 
             {/* Contact Details */}
             <div className="space-y-6">
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div
                   className="w-14 h-14 bg-law-yeti-accent rounded-full flex items-center justify-center"
                   style={{ background: "#D1995B" }}
@@ -141,7 +141,7 @@ export default function ContactPage() {
                   </a>
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-center space-x-4">
                 <div

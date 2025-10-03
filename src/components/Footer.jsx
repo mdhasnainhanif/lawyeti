@@ -104,11 +104,11 @@ const Footer = () => {
                 Contact Info
               </h3>
               <div className="space-y-5">
-                <div className="text-white/80 font-helvetica text-sm md:text-base font-bold leading-[150%] opacity-80">
+                {/* <div className="text-white/80 font-helvetica text-sm md:text-base font-bold leading-[150%] opacity-80">
                 <a href="tel:+14103752449">
                 +1 410 375 2449
                 </a>
-                </div>
+                </div> */}
                 <div className="text-white/80 font-helvetica text-sm md:text-base font-medium leading-[150%] opacity-80">
                   Mail: legal@law-yeti.com
                 </div>
